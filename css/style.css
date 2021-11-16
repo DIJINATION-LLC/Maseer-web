@@ -893,10 +893,13 @@ font-size: 17px;
 }
 
 .list-st{
-     text-align: right;
-     font-size: 17px;
+     font-size: 1.2rem;
      font-weight: 600;
     line-height: 36px;
     color: #313131;
     padding: 0 0 0.5rem 0;
+}
+
+.icofont{
+     color:#d7530a !important;
 }
