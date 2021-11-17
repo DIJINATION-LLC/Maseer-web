@@ -343,14 +343,21 @@ button {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/hero.jpg);
+     background-image:
+     linear-gradient(to bottom, rgb(22 22 22 / 45%), rgb(0 0 0 / 68%)),
+     url(../images/hero.jpg);
      background-repeat: no-repeat;
      min-height: 100vh;
      display: flex;
+     z-index: 0;
      justify-content: center;
      align-content: center;
      align-items: center;
-     background-size: 100% 100%;
+     background-size: cover;
+}
+
+.banner_main:after {
+     background-color: #000;
 }
 
 .text-bg {
@@ -536,6 +543,10 @@ button {
 
 
 /** end Choose  section **/
+
+.services{
+     padding: 5rem 0 5rem 0;
+}
 
 .services h3{
      color: #313131;
