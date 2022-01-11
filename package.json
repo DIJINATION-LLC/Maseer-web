@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemailer": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "name": "maseer-web",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DijiSyncHCS-LLC/Maseer-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DijiSyncHCS-LLC/Maseer-web/issues"
+  },
+  "homepage": "https://github.com/DijiSyncHCS-LLC/Maseer-web#readme"
+}
