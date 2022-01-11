@@ -17,8 +17,7 @@ app.post('/', (req, res) => {
 
     const transporter = nodemailer.createTransport({
         host: "mail.maseergroup.com",
-        port: 110,
-        secure: false, // true for 465, false for other ports
+        port: 465,
         auth: {
             user: 'receiver@maseergroup.com',
             pass: 'GMAILReceiver001'
