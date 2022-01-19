@@ -1,5 +1,5 @@
 const contactform = document.querySelector('.main_form');
-let name = document.getElementById('name');
+let name = document.getElementById('fname');
 let email = document.getElementById('email');
 let number = document.getElementById('number');
 let message = document.getElementById('message');
@@ -8,7 +8,7 @@ contactform.addEventListener('submit', (e)=>{
     e.preventDefault();
 
     let formData = {
-        name: name.value,
+        name: fname.value,
         email: email.value,
         number: number.value,
         message: message.value
@@ -21,7 +21,7 @@ contactform.addEventListener('submit', (e)=>{
         console.log(xhr.responseText);
         if(xhr.responseText == 'success'){
             alert('Email sent');
-            name.value = '';
+            fname.value = '';
             email.value = '';
             number.value = '';
             message.value = '';
